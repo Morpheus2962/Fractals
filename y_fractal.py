@@ -14,7 +14,7 @@ def y_fractal(length):
 	else:
 		a.forward(length)
 		a.left(30)
-		y_fractal(3*(length/4))	
+		y_fractal(3*length/4)	
 		a.right(60)
 		y_fractal(3*length/4)
 		a.left(30)
